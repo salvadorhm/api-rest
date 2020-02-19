@@ -1,0 +1,74 @@
+[[package]]
+category = "main"
+description = "Highly-optimized, pure-python HTTP server"
+name = "cheroot"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
+version = "8.3.0"
+
+[package.dependencies]
+"jaraco.functools" = "*"
+more-itertools = ">=2.6"
+six = ">=1.11.0"
+
+[[package]]
+category = "main"
+description = "Functools like those found in stdlib"
+name = "jaraco.functools"
+optional = false
+python-versions = ">=3.6"
+version = "3.0.0"
+
+[package.dependencies]
+more-itertools = "*"
+
+[[package]]
+category = "main"
+description = "Python implementation of Markdown."
+name = "markdown"
+optional = false
+python-versions = ">=3.5"
+version = "3.2.1"
+
+[package.dependencies]
+setuptools = ">=36"
+
+[[package]]
+category = "main"
+description = "More routines for operating on iterables, beyond itertools"
+name = "more-itertools"
+optional = false
+python-versions = ">=3.5"
+version = "8.2.0"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "1.14.0"
+
+[[package]]
+category = "main"
+description = "web.py: makes web apps"
+name = "web.py"
+optional = false
+python-versions = "*"
+version = "0.40"
+
+[package.dependencies]
+cheroot = "*"
+markdown = "*"
+
+[metadata]
+content-hash = "377db2c8d15b1bc38fd3ce775e937229c2a22f3fe7691f6648073bb9932d98eb"
+python-versions = "^3.7"
+
+[metadata.hashes]
+cheroot = ["2b48c88959b5b80a79aca627ae5212acb398becaa70b576b8b89bec1ad0d1367", "a0577e1f28661727d472671a7cc4e0c12ea0cbc5220265e70f00a8b8cb628931"]
+"jaraco.functools" = ["1db5ed25d8bb6cafc48b1c575743e1b4847a5ca7fca72497e89723832aa52529", "5cb0eea0f254584241c519641328a4d4ec2001a86c3cd6d17a8fd228493f6d97"]
+markdown = ["90fee683eeabe1a92e149f7ba74e5ccdc81cd397bd6c516d93a8da0ef90b6902", "e4795399163109457d4c5af2183fbe6b60326c17cfdf25ce6e7474c6624f725d"]
+more-itertools = ["5dd8bcf33e5f9513ffa06d5ad33d78f31e1931ac9a18f33d37e77a180d393a7c", "b1ddb932186d8a6ac451e1d95844b382f55e12686d51ca0c68b6f61f2ab7a507"]
+six = ["236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a", "8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"]
+"web.py" = ["dc5e42ffbc42d77d07f75b7acca9975a3368ae609774e49ddebb497a784131f3"]

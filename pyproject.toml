@@ -1,0 +1,14 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Salvador HM <salvadorhm@gmail.com>"]
+description = ""
+name = "api-rest"
+version = "0.1.0"
+[tool.poetry.dependencies]
+python = "^3.7"
+"web.py" = "^0.40.0"
+[tool.poetry.dev-dependencies]
